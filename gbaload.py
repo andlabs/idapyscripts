@@ -155,6 +155,8 @@ def main():
 
 	makeLong(0x03007FFC, "IRQAddr", "")
 
+	idc.Jump(0x08000000)
+
 	print("success")
 
 main()

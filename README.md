@@ -7,6 +7,5 @@ To load a GBA ROM into IDA, first open the ROM in IDA. Set **ARM processors: ARM
 Steals comments from the no$ docs (generated with gbaio.sh).
 
 TODO:
-* move the cursor to $80000000 at the end
 * fix truncated comments
 * verify the other ARM architecture options to make sure they are right
