@@ -16,12 +16,14 @@ This is a script that loads the symbol table stored in the SEL files associated 
 
 Simply load your DOL file, wait for IDA to finish processing it, and then run this script. It will ask you to locate the SEL file to load, and then load it. Pay attention to the CLI at the bottom of the IDA window, as it will point out labels it could not set for whatever reason (IDA doesn't seem to provide a way to determine why MakeLabelEx() failed...).
 
-Based on sel_parser.py from Megazig/WiiTools; this was originally written by Ninjifox.
+Based on sel_parser.py from [Megazig/WiiTools](https://github.com/Megazig/WiiTools/tree/master/PythonTools); this was originally written by [Ninjifox](https://github.com/Ninjifox).
 
 TODO:
 * TODOs in source
 * (also for gbaload.py) make panic() more proper
 * verify license with Megazig (Ninjifox said it was fine on IRC)
- [16:00] <Ninjifox> looks ok to me, though I am not sure about licensing on Struct.py
- [16:00] <Ninjifox> (I didn't write that)
- [16:01] <Ninjifox> ((iirc, daeken wrote it a really long time ago and I have no idea how it falls))
+```
+[16:00] <Ninjifox> looks ok to me, though I am not sure about licensing on Struct.py
+[16:00] <Ninjifox> (I didn't write that)
+[16:01] <Ninjifox> ((iirc, daeken wrote it a really long time ago and I have no idea how it falls))
+```
