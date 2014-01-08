@@ -24,6 +24,10 @@ TODO:
 * verify license with Megazig (Ninjifox said it was fine on IRC)
 ```
 [16:00] <Ninjifox> looks ok to me, though I am not sure about licensing on Struct.py
+```
+```
 [16:00] <Ninjifox> (I didn't write that)
+```
+```
 [16:01] <Ninjifox> ((iirc, daeken wrote it a really long time ago and I have no idea how it falls))
 ```
